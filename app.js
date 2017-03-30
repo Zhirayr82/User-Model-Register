@@ -39,6 +39,10 @@ app.use(bodyParser.json());
 app.use(passport.initialize());
 app.use(passport.session());
 
+// let passportConfig = require('./config/passport');
+// passportConfig(passport);
+
+require('./config/passport')(passport);
 //
 app.use('/users', users);
 
