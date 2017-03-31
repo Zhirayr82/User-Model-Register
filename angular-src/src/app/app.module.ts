@@ -12,6 +12,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HomeComponent } from './components/home/home.component';
 
+import {ValidateService} from './services/validate.service';
 const appRoutes: Routes = [
 { path: '', component: HomeComponent },
 { path: 'register', component: RegisterComponent },
