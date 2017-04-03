@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 	selector: 'app-register',
 	templateUrl: './register.component.html',
 	styleUrls: ['./register.component.css'],
-	providers: [ValidateService, AuthService]
+	
 })
 export class RegisterComponent implements OnInit {
 	name: String;

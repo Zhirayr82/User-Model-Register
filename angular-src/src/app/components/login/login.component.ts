@@ -41,6 +41,6 @@ export class LoginComponent implements OnInit {
 					timeout: 5000});
 				this.router.navigate(['login']);
 			}
-											});
+		});
 	}
 }
